@@ -9,8 +9,9 @@
 		<label for="plugin_ae_idx_styler_settings[idx_provider]">Select an IDX Provider to include styling for:</label>
 		<br />
 		<select name="plugin_ae_idx_styler_settings[idx_provider]" class="">
-			<option value="idx-broker" <?php selected($options['idx_provider'], 'idx-broker') ?>>IDX Broker</option>
+			<option value="idx-broker-platinum" <?php selected($options['idx_provider'], 'idx-broker-platinum') ?>>IDX Broker Platinum</option>
 			<option value="diverse-solutions" <?php selected($options['idx_provider'], 'diverse-solutions') ?>>Diverse Solutions</option>
+			<option value="optima-express" <?php selected($options['idx_provider'], 'optima-express') ?>>Optima Express</option>
 		</select>
 	</div>
 	<br />

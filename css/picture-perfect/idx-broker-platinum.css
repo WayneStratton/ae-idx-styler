@@ -1,0 +1,115 @@
+/* Widgets
+------------------------------------------------------------ */
+/* Quick search */
+.IDX-quicksearchWrapper {
+	width: 100% !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+.IDX-qsFieldWrap {
+	text-align: left !important;
+	overflow: hidden;
+}
+.IDX-qsFieldWrap label {
+	float: left;
+	width: 30%;
+}
+.IDX-qsFieldWrap input,
+.IDX-qsFieldWrap select {
+	float: right;
+	width: 65%;
+}
+
+/* Featured Agent */
+#IDX-featAgentImgWrap {
+	float: left;
+	margin-right: 10px;
+}
+#IDX-featAgentImgWrap img {
+	padding: 4px;
+	border: 1px solid #ddd;
+}
+#IDX-featuredAgentCaption {
+	float: left;
+}
+
+/* Showcase */
+.IDX-showcaseWrapper {
+	width: 98% !important;
+}
+.IDX-showcaseWrapper .IDX-showcaseDetails {
+	width: 98% !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	border: none !important;
+	margin: 0 0 10px !important;
+	font-size: 14px;
+	line-height: 16px;
+	position: relative;
+}
+.IDX-showcaseWrapper .IDX-showcaseDetails .IDX-showcasePhoto {
+	width: 100% !important;
+	height: auto !important;
+	margin: 0 auto !important;
+	padding: 4px;
+	background: #fff;
+	display: block;
+	border: 1px solid #999;
+	margin-bottom: 12px !important;
+}
+.IDX-showcaseWrapper .IDX-showcaseDetails .IDX-showcasePrice {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background: #111;
+	color: #fff;
+	padding: 10px;
+	background: #111;
+	font-size: 16px;
+}
+
+/* Slideshow */
+.IDX-slideshowWrapper {
+	box-shadow: none !important;
+}
+.IDX-slideshowCaption {
+	border-radius: 0 !important;
+}
+.IDX-slideshowCaption .IDX-slideshowContent {
+	font-size: 12px !important;
+	line-height: 14px !important;
+}
+
+/* Lead Login */
+.IDX-widgetLeadLoginWrapper label {
+	float: left;
+	width: 35%;
+	margin-left: 0;
+}
+.IDX-widgetLeadLoginWrapper input {
+	float: right;
+	width: 60%;
+}
+#IDX-widgetEmail {
+	margin-bottom: 5px;
+}
+
+/* Lead Signup */
+#IDX-widgetLeadSignupForm label {
+	clear: both;
+	float: left;
+	width: 35%;
+	margin-left: 0;
+	line-height: 26px;
+}
+#IDX-widgetLeadSignupForm input {
+	float: right;
+	width: 60%;
+	margin-bottom: 5px;
+}
+
+/* Responsive
+------------------------------------------------------------ */
+@media (max-width: 480px) {
+}

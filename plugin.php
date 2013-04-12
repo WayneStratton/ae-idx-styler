@@ -3,7 +3,7 @@
 Plugin Name: AE IDX Styler
 Plugin URI: http://themes.agentevolution.com/
 Description: Styles IDX features of your Agentevo Theme
-Author: jtallant
+Author: Agent Evolution
 Author URI: http://themes.agentevolution.com/
 
 Version: 1.0.0
