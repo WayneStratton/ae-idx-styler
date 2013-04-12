@@ -16,7 +16,7 @@
 	</div>
 	<br />
 	<div class="form-field">
-		<label for="plugin_ae_idx_styler_settings[ae_child_theme]">Select your Agentevo child theme:</label>
+		<label for="plugin_ae_idx_styler_settings[ae_child_theme]">Select your Agent Evolution child theme:</label>
 		<br />
 		<select name="plugin_ae_idx_styler_settings[ae_child_theme]" class="">
 			<option value="picture-perfect" <?php selected($options['ae_child_theme'], 'picture-perfect'); ?>>Picture Perfect</option>

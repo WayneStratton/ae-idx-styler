@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: AE IDX Styler
+Plugin Name: IDX Styler
 Plugin URI: http://themes.agentevolution.com/
 Description: Styles IDX features of your Agentevo Theme
 Author: Agent Evolution

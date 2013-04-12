@@ -1,3 +1,5 @@
+/* dsIDXpress listing pages
+------------------------------------------------------------ */
 .entry-content #dsidx-listings li {
 	display: none;
 }
@@ -34,6 +36,9 @@
 .entry-content #dsidx-disclaimer {
 	font-size: 11px;
 }
+
+/* Responsive design
+------------------------------------------------------------ */
 @media (max-width: 480px) {
 	.entry-content #dsidx-listings li.dsidx-listing {
 		float: none;
