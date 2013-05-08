@@ -21,7 +21,6 @@
 		<select name="plugin_ae_idx_styler_settings[ae_child_theme]" class="">
 			<option value="picture-perfect" <?php selected($options['ae_child_theme'], 'picture-perfect'); ?>>Picture Perfect</option>
 			<option value="curb-appeal" <?php selected($options['ae_child_theme'], 'curb-appeal'); ?>>Curb Appeal</option>
-			<option value="turn-key" <?php selected($options['ae_child_theme'], 'turn-key'); ?>>Turn Key</option>
 		</select>
 	</div>
 	<br />
