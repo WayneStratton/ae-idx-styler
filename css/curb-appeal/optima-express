@@ -11,7 +11,8 @@
 #ihf_searchform_container_620,
 #ihf_orglogin_container,
 #ihf_map_widget iframe,
-#ihf_emailalerts_container {
+#ihf_emailalerts_container,
+#ihf_mlsnum_street_search_620 {
 	width: 100% !important;
 }
 #ihf {
@@ -20,14 +21,32 @@
 #ihf_fade_container {
 	background: none !important;
 }
-#ihf_orglogin_container input[type="submit"] {
-	color: #fff;
+#ihf_orglogin_container {
+	margin: 0;
 }
+#ihf_orglogin_container input {
+	width: auto;
+}
+
 /* Optima Express widgets
 ------------------------------------------------------------ */
-#ihf_widget_quick_search,
-#ihf_widget_search_city_selector,
-#propertyTypeSelection {
+.home-top .widget {
+	padding: 12px;
+}
+.home-top .widgettitle {
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-bottom: 0px;
+	font-size: 22px;
+}
+.widget_ihomefinderquicksearchwidget .ihmain,
+.widget_ihomefinderquicksearchwidget br {
+	display: none;
+}
+#ihf input[type="submit"] {
+	color: #fff;
+}
+#ihf_widget_quick_search select {
 	width: 100% !important;
 }
 .ihf_widget_search_minprice,
@@ -45,10 +64,8 @@
 .ihf_widget_search_bath select,
 .ihf_widget_search_sqft input,
 .ihf_widget_search_lotacres input {
-	width: 85% !important;
+	width: 80% !important;
 }
-
-.widget_ihomefinderpropertiesgallery {}
 
 /* Responsive design
 ------------------------------------------------------------ */
@@ -77,7 +94,9 @@
 	#ihf_modulebox_600,
 	#ihf table,
 	#ihf tr,
-	#ihf tr td {
+	#ihf tr td,
+	#ihf_search620_formleft,
+	#ihf_search620_formright {
 		clear: left;
 		float: none !important;
 		width: 100% !important;
