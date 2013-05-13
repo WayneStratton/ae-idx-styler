@@ -12,6 +12,7 @@
 			<option value="idx-broker-platinum" <?php selected($options['idx_provider'], 'idx-broker-platinum') ?>>IDX Broker Platinum</option>
 			<option value="diverse-solutions" <?php selected($options['idx_provider'], 'diverse-solutions') ?>>Diverse Solutions</option>
 			<option value="optima-express" <?php selected($options['idx_provider'], 'optima-express') ?>>Optima Express</option>
+			<option value="flexmls" <?php selected($options['idx_provider'], 'flexmls') ?>>FlexMLS</option>
 		</select>
 	</div>
 	<br />

@@ -23,6 +23,10 @@
 #ihf_orglogin_container input[type="submit"] {
 	color: #fff;
 }
+#ihf_orglogin_container input {
+	width: auto;
+}
+
 /* Optima Express widgets
 ------------------------------------------------------------ */
 #ihf_widget_quick_search,
