@@ -6,7 +6,7 @@ Description: Styles IDX features of your Agentevo Theme
 Author: Agent Evolution
 Author URI: http://themes.agentevolution.com/
 
-Version: 1.0.1
+Version: 1.0.0
 
 License: GNU General Public License v2.0 (or later)
 License URI: http://www.opensource.org/licenses/gpl-license.php
@@ -68,25 +68,4 @@ function ais_load_css_for_selected_provider_and_theme() {
 	}
 
 	wp_enqueue_style('ae_idx_styler_css', plugin_dir_url(__FILE__) . 'css/' . $options['ae_child_theme'] . '/' . $options['idx_provider'] . '.css');
-}
-
-add_action('init', 'ae_idx_styler_updater_init');
-function ae_idx_styler_updater_init() {
-	if (is_admin()) {
-		include_once "updater.php";
-		define('WP_GITHUB_FORCE_UPDATE', true);
-		$config = array(
-			'slug' => plugin_basename(__FILE__),
-			'proper_folder_name' => 'ae-idx-styler',
-			'api_url' => 'https://api.github.com/repos/agentevolution/ae-idx-styler',
-			'raw_url' => 'https://raw.github.com/agentevolution/ae-idx-styler/master',
-			'github_url' => 'https://github.com/agentevolution/ae-idx-styler',
-			'zip_url' => 'https://github.com/agentevolution/ae-idx-styler/zipball/master',
-			'sslverify' => true,
-			'requires' => '3.0',
-			'tested' => '3.3',
-			'readme' => 'readme.txt'
-		);
-		new WPGitHubUpdater($config);
-	}
 }
