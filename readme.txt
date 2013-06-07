@@ -3,7 +3,7 @@ Contributors: agentevolution, davebonds, jtallant
 Tags: agentevo, idx, real-estate, genesis
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 1.0.1
+Stable tag: 1.0.0
 
 Allows you to select styling for the most popular IDX providers who integrate with WordPress. This plugin only works with Genesis child themes created by Agent Evolution.
 
