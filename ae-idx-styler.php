@@ -69,3 +69,26 @@ function ais_load_css_for_selected_provider_and_theme() {
 
 	wp_enqueue_style('ae_idx_styler_css', plugin_dir_url(__FILE__) . 'css/' . $options['ae_child_theme'] . '/' . $options['idx_provider'] . '.css');
 }
+
+/* hook updater to init */
+add_action( 'init', 'ae_idx_styler_updater_init' );
+
+/**
+ * Load and Activate Plugin Updater Class.
+ * @since 0.1.0
+ */
+function ae_idx_styler_updater_init() {
+
+    /* Load Plugin Updater */
+    require_once( trailingslashit( plugin_dir_path( __FILE__ ) ) . 'includes/plugin-updater.php' );
+
+    /* Updater Config */
+    $config = array(
+        'base'         => plugin_basename( __FILE__ ), //required
+        'repo_uri'     => 'http://themes.agentevolution.com/',
+        'repo_slug'    => 'ae-idx-styler',
+    );
+
+    /* Load Updater Class */
+    new AE_IDX_Styler_Plugin_Updater( $config );
+}
