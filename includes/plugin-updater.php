@@ -1,6 +1,6 @@
 <?php
 /* Prevent loading this file directly and/or if the class is already defined */
-if ( ! defined( 'ABSPATH' ) || class_exists( 'Super_Mario_Plugin_Updater' ) )
+if ( ! defined( 'ABSPATH' ) || class_exists( 'AE_IDX_Styler_Plugin_Updater' ) )
 	return;
 
 
