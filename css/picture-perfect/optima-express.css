@@ -81,7 +81,9 @@
 	#ihf_modulebox_600,
 	#ihf table,
 	#ihf tr,
-	#ihf tr td {
+	#ihf tr td,
+	#ihf_search620_formleft,
+	#ihf_search620_formright {
 		clear: left;
 		float: none !important;
 		width: 100% !important;

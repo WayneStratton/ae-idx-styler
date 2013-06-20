@@ -114,6 +114,7 @@
 ------------------------------------------------------------ */
 /* General */
 #IDX-main {
+	width: 100%;
 	font-family: "Lato", arial, sans-serif;
 }
 #IDX-main button,
@@ -148,6 +149,7 @@
 #IDX-resultMap {
 	margin-bottom: 20px;
 }
+
 /* Responsive
 ------------------------------------------------------------ */
 @media (max-width: 480px) {
