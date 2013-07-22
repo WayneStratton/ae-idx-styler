@@ -36,6 +36,10 @@
 .entry-content #dsidx-disclaimer {
 	font-size: 11px;
 }
+#dsidx select,
+.dsidx-content-header select {
+	width: auto;
+}
 
 /* dsIDXpress widgets
 ------------------------------------------------------------ */
@@ -46,6 +50,7 @@
 .home-middle .dsidx-widget-single-listing-wrap:last-child {
 	margin-right: 0;
 }
+
 /* Responsive design
 ------------------------------------------------------------ */
 @media (max-width: 480px) {
