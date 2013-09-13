@@ -14,11 +14,12 @@
 .IDX-qsFieldWrap label {
 	float: left;
 	width: 30%;
+	margin: 0 !important;
 }
 .IDX-qsFieldWrap input,
 .IDX-qsFieldWrap select {
 	float: right;
-	width: 65%;
+	width: 60%;
 }
 
 /* Featured Agent */
@@ -36,10 +37,12 @@
 
 /* Showcase */
 .IDX-showcaseWrapper {
+	overflow: hidden;
 	width: 98% !important;
 }
 .IDX-showcaseWrapper .IDX-showcaseDetails {
 	width: 98% !important;
+	height: auto !important;
 	border-radius: 0 !important;
 	box-shadow: none !important;
 	border: none !important;
@@ -49,7 +52,7 @@
 	position: relative;
 }
 .IDX-showcaseWrapper .IDX-showcaseDetails .IDX-showcasePhoto {
-	width: 100% !important;
+	width: 97% !important;
 	height: auto !important;
 	margin: 0 auto !important;
 	padding: 4px;
@@ -65,12 +68,12 @@
 	background: #111;
 	color: #fff;
 	padding: 10px;
-	background: #111;
 	font-size: 16px;
 }
 
 /* Slideshow */
 .IDX-slideshowWrapper {
+	overflow: hidden;
 	box-shadow: none !important;
 }
 .IDX-slideshowCaption {
@@ -82,6 +85,9 @@
 }
 
 /* Lead Login */
+.IDX-widgetLeadLoginWrapper {
+	overflow: hidden;
+}
 .IDX-widgetLeadLoginWrapper label {
 	float: left;
 	width: 35%;
@@ -96,6 +102,9 @@
 }
 
 /* Lead Signup */
+.LeadSignup {
+	overflow: hidden;
+}
 #IDX-widgetLeadSignupForm label {
 	clear: both;
 	float: left;

@@ -11,7 +11,8 @@
 #ihf_searchform_container_620,
 #ihf_orglogin_container,
 #ihf_map_widget iframe,
-#ihf_emailalerts_container {
+#ihf_emailalerts_container,
+#ihf_mlsnum_street_search_620 {
 	width: 100% !important;
 }
 #ihf {

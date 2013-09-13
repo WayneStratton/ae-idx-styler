@@ -39,6 +39,12 @@
 
 /* Responsive design
 ------------------------------------------------------------ */
+@media (max-width: 1000px) {
+	#dsidx-header td {
+		width: 100% !important;
+		display: block;
+	}
+}
 @media (max-width: 480px) {
 	.entry-content #dsidx-listings li.dsidx-listing {
 		float: none;
