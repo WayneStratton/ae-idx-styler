@@ -22,6 +22,7 @@
 		<select name="plugin_ae_idx_styler_settings[ae_child_theme]" class="">
 			<option value="picture-perfect" <?php selected($options['ae_child_theme'], 'picture-perfect'); ?>>Picture Perfect</option>
 			<option value="curb-appeal" <?php selected($options['ae_child_theme'], 'curb-appeal'); ?>>Curb Appeal</option>
+			<option value="open-floor-plan" <?php selected($options['ae_child_theme'], 'open-floor-plan'); ?>>Open Floor Plan</option>			
 		</select>
 	</div>
 	<br />

@@ -85,7 +85,7 @@ function ae_idx_styler_updater_init() {
     /* Updater Config */
     $config = array(
         'base'         => plugin_basename( __FILE__ ), //required
-        'repo_uri'     => 'http://themes.agentevolution.com/',
+        'repo_uri'     => 'http://www.agentevolution.com/',
         'repo_slug'    => 'ae-idx-styler',
     );
 
