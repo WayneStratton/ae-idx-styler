@@ -1,0 +1,55 @@
+/* dsIDXpress listing pages
+------------------------------------------------------------ */
+.entry-content #dsidx-listings li {
+	display: none;
+}
+.entry-content #dsidx-listings li.dsidx-listing {
+	display: list-item;
+	float: left;
+	width: 50%;
+	margin: 0 0 15px;
+	text-align: center;
+	min-height: 390px;
+}
+.entry-content #dsidx-listings .dsidx-media .dsidx-photo {
+	position: relative;
+	border: none;
+	max-height: 198px;
+}
+.entry-content #dsidx-listings .dsidx-media .dsidx-photo img {
+	border: 1px solid #ddd;
+	padding: 4px;
+}
+.entry-content #dsidx-listings .dsidx-primary-data,
+.entry-content #dsidx-listings .dsidx-secondary-data {
+	padding-left: 0;
+	float: none;
+	background: none;
+}
+.entry-content #dsidx-listings .dsidx-secondary-data {
+	font-size: 14px;
+	
+}
+.entry-content .dsidx-paging-control {
+	clear: both;
+}
+.entry-content #dsidx-disclaimer {
+	font-size: 11px;
+}
+
+/* dsIDXpress widgets
+------------------------------------------------------------ */
+.home .dsidx-widget-single-listing-wrap {
+	float: left;
+	margin-right: 6.166667%;
+	margin-bottom: 15px;
+}
+
+/* Responsive design
+------------------------------------------------------------ */
+@media (max-width: 480px) {
+	.entry-content #dsidx-listings li.dsidx-listing {
+		float: none;
+		width: 100%;
+	}
+}
