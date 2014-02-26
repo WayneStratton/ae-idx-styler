@@ -1,0 +1,115 @@
+/* Widgets
+------------------------------------------------------------ */
+/* Quick search */
+.IDX-quicksearchWrapper {
+	width: 100% !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+.IDX-qsFieldWrap {
+	text-align: left !important;
+	overflow: hidden;
+}
+.IDX-qsFieldWrap label {
+	float: left;
+	width: 30%;
+	margin: 0 !important;
+}
+.IDX-qsFieldWrap input,
+.IDX-qsFieldWrap select {
+	float: right;
+	width: 60%;
+}
+
+/* Featured Agent */
+.IDX-featuredAgentWrap {
+	overflow: hidden;
+}
+
+/* Showcase */
+.home .IDX-showcaseWrapper,
+.home .IDX-showcaseTable {	
+	overflow: hidden;
+	width: 100% !important;
+	font-size: 16px !important;
+}
+.home .IDX-showcaseTable .IDX-showcaseCell,
+.home .IDX-showcaseWrapper .IDX-showcaseDetails {
+	border: none !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+	width: 29% !important;
+	margin: 0 4% 30px 0 !important;
+	height: auto !important;
+	background: #fff;
+	border-radius: 0 !important;
+	display: inline-block !important;
+	min-height: 250px;
+}
+.home .IDX-showcaseDetails img.IDX-showcasePhoto {
+	width: 100% !important;
+	height: auto !important;
+	margin: 0 !important;
+}
+.IDX-showcaseTable .IDX-showcaseCell,
+.IDX-showcaseWrapper .IDX-showcaseDetails {
+	border: none !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+}
+
+/* Slideshow */
+.IDX-slideshowWrapper {
+	overflow: hidden;
+	box-shadow: none !important;
+	width: 100% !important;
+}
+.IDX-slideshowCaption {
+	border-radius: 0 !important;
+}
+.IDX-slideshowCaption .IDX-slideshowContent {
+	font-size: 12px !important;
+	line-height: 14px !important;
+}
+.idx-slideshowPhotoElement {
+	width: 100% !important;
+	height: auto !important;
+}
+
+/* Lead Login */
+
+
+/* Lead Signup */
+
+
+
+/* Pages
+------------------------------------------------------------ */
+/* General */
+#IDX-main {
+	width: 100%;
+}
+#IDX-searchNavWrapper li a,
+#IDX-searchNavWrapper li a:hover,
+#IDX-searchNavWrapper li span {
+	display: block;
+}
+#IDX-searchNavWrapper li a:hover,
+#IDX-searchNavWrapper li span {
+	text-decoration: none;
+}
+#IDX-resultsRefineSubmit {
+	width: auto;
+}
+#IDX-resultMap {
+	margin-bottom: 20px;
+}
+#IDX-mapContainer {
+	width: 100% !important;
+}
+
+/* Responsive
+------------------------------------------------------------ */
+@media (max-width: 480px) {
+}
