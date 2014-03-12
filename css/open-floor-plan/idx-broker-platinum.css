@@ -112,4 +112,11 @@
 /* Responsive
 ------------------------------------------------------------ */
 @media (max-width: 480px) {
+	.home .IDX-showcaseTable .IDX-showcaseCell,
+	.home .IDX-showcaseWrapper .IDX-showcaseDetails {
+		float: none;
+		display: block !important;
+		width: 100% !important;
+	}
+
 }

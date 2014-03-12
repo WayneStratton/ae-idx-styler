@@ -58,6 +58,9 @@ It also includes a function to easily create a header and footer file for users 
 
 == Changelog ==
 
+= 1.1.1 =
+* Update for IDX showcase on OFP home page mobile
+
 = 1.1.0 =
 * Update for Open Floor Plan comatibility
 
