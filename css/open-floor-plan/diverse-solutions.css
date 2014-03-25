@@ -11,6 +11,9 @@
 	text-align: center;
 	min-height: 390px;
 }
+.entry-content #dsidx-listings li.dsidx-listing-container {
+	display: block;
+}
 .entry-content #dsidx-listings .dsidx-media .dsidx-photo {
 	position: relative;
 	border: none;
