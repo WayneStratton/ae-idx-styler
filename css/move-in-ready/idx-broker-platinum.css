@@ -1,0 +1,153 @@
+/* Widgets
+------------------------------------------------------------ */
+.home-middle .widget {
+	clear: both;
+	overflow: hidden;
+}
+
+/* Quick search */
+.IDX-quicksearchWrapper {
+	width: 100% !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+.IDX-qsFieldWrap {
+	text-align: left !important;
+	overflow: hidden;
+}
+.IDX-qsFieldWrap label {
+	float: left;
+	width: 30%;
+}
+.IDX-qsFieldWrap input,
+.IDX-qsFieldWrap select {
+	float: right;
+	width: 65%;
+}
+
+/* Featured Agent */
+#IDX-featAgentImgWrap {
+	float: left;
+	margin-right: 10px;
+}
+#IDX-featAgentImgWrap img {
+	padding: 4px;
+	border: 1px solid #ddd;
+}
+#IDX-featuredAgentCaption {
+	float: left;
+}
+
+/* Showcase */
+div[id*="IDX-showcaseGallery-"].IDX-showcaseWrapper,
+div[id*="IDX-showcaseGallery-"].IDX-showcaseTable {
+	width: 100% !important;
+}
+div[id*="IDX-showcaseGallery-"] .IDX-showcaseDetails,
+div[id*="IDX-showcaseGallery-"] .IDX-showcaseCell {
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	border: none !important;
+	font-size: 14px;
+	line-height: 16px;
+	position: relative;
+	height: auto !important;
+	padding: 0 !important;
+}
+div[id*="IDX-showcaseGallery-"] .IDX-showcasePhoto {
+	margin-bottom: 10px;
+	max-height: none !important;
+}
+div[id*="IDX-showcaseGallery-"] .IDX-showcasePrice {
+}
+
+/* Slideshow */
+.IDX-slideshowWrapper {
+	box-shadow: none !important;
+	width: 100% !important;
+}
+.IDX-slideshowCaption {
+	border-radius: 0 !important;
+}
+.IDX-slideshowWrapper a .idx-slideshowPhotoElement {
+	width: 100% !important;
+	height: auto !important;
+}
+.IDX-slideshowCaption .IDX-slideshowContent {
+	font-size: 12px !important;
+	line-height: 14px !important;
+}
+
+/* Lead Login */
+.IDX-widgetLeadLoginWrapper label {
+	float: left;
+	width: 35%;
+	margin-left: 0;
+}
+.IDX-widgetLeadLoginWrapper input {
+	float: right;
+	width: 60%;
+}
+#IDX-widgetEmail {
+	margin-bottom: 5px;
+}
+
+/* Lead Signup */
+#IDX-widgetLeadSignupForm label {
+	clear: both;
+	float: left;
+	width: 35%;
+	margin-left: 0;
+	line-height: 26px;
+}
+#IDX-widgetLeadSignupForm input {
+	float: right;
+	width: 60%;
+	margin-bottom: 5px;
+}
+
+
+/* Pages
+------------------------------------------------------------ */
+/* General */
+#IDX-main {
+	width: 100%;
+}
+#IDX-searchNavWrapper li a,
+#IDX-searchNavWrapper li a:hover,
+#IDX-searchNavWrapper li span {
+	display: block;
+}
+#IDX-searchNavWrapper li a:hover,
+#IDX-searchNavWrapper li span {
+	text-decoration: none;
+}
+#IDX-resultsRefineSubmit {
+	width: auto;
+}
+#IDX-resultMap {
+	margin-bottom: 20px;
+}
+#IDX-mapContainer {
+	width: 100% !important;
+}
+
+/* Responsive
+------------------------------------------------------------ */
+@media (max-width: 480px) {
+	.IDX-wrapper-standard #IDX-cczContainer,
+	.IDX-wrapper-standard .IDX-coreFields,
+	#IDX-per-group,
+	#IDX-srtd-group,
+	#IDX-submit-group {
+		float: none;
+		width: 100%;
+	}
+	.home .IDX-showcaseTable .IDX-showcaseCell,
+	.home .IDX-showcaseWrapper .IDX-showcaseDetails {
+		float: none;
+		display: block !important;
+		width: 100% !important;
+	}
+}
