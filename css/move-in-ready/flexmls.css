@@ -1,0 +1,46 @@
+/* FlexMLS widgets
+------------------------------------------------------------ */
+.widget_fmcleadgen input {
+	margin-bottom: 5px;
+}
+.flexmls_connect__market_stats_graph,
+.flexmls_connect__market_stats_graph canvas {
+	width: 100% !important;
+}
+.widget_fmcphotos .widget-wrap {
+	overflow: hidden;
+}
+.flexmls_connect__search.vertical {
+	box-shadow: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+/* FlexMLS details page
+------------------------------------------------------------ */
+.flexmls_connect__photo_container {
+	height: auto !important
+}
+.flexmls_connect__sr_detail .flexmls_connect__main_image {
+	height: auto !important;
+}
+
+
+/* Responsive design
+------------------------------------------------------------ */
+@media (min-width: 767px) and (max-width: 979px) {
+	.flexmls_connect__sr_result .flexmls_connect__sr_listing_facts_container {
+		padding-left: 0;
+	}
+}
+@media only screen and (max-width:768px) {
+	.flexmls_connect__market_stats_graph,
+	.flexmls_connect__market_stats_graph canvas {
+		width: auto !important;
+	}
+}
+@media (max-width: 600px) {
+	.flexmls_connect__sr_result .flexmls_connect__sr_listing_facts_container {
+		padding-left: 0;
+	}
+}
