@@ -3,7 +3,7 @@ Contributors: agentevolution, davebonds
 Tags: agentevo, idx, real-estate, genesis
 Requires at least: 3.5
 Tested up to: 3.8
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 
 Allows you to select styling for the most popular IDX providers who integrate with WordPress. This plugin only works with Genesis child themes created by Agent Evolution.
 
@@ -57,6 +57,9 @@ It also includes a function to easily create a header and footer file for users 
 * Minor formatting fixes for Optima Express widgets
 
 == Changelog ==
+
+= 1.2.1 =
+* Minor fix for IDX Broker showcase display in Open Floor Plan
 
 = 1.2.0 =
 * Update for Move-in Ready child theme comatibility
