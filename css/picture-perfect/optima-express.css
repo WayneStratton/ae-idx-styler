@@ -10,9 +10,9 @@
 #ihf_detail_container_620_inner,
 #ihf_searchform_container_620,
 #ihf_orglogin_container,
-#ihf_map_widget iframe,
 #ihf_emailalerts_container,
-#ihf_mlsnum_street_search_620 {
+#ihf_mlsnum_street_search_620.
+#ihf_map_widget iframe {
 	width: 100% !important;
 }
 #ihf {
@@ -21,11 +21,11 @@
 #ihf_fade_container {
 	background: none !important;
 }
-#ihf_orglogin_container input[type="submit"] {
-	color: #fff;
-}
 #ihf_orglogin_container input {
 	width: auto;
+}
+#ihf_orglogin_container input[type="submit"] {
+	color: #fff;
 }
 
 /* Optima Express widgets
@@ -54,6 +54,14 @@
 }
 
 .widget_ihomefinderpropertiesgallery {}
+
+
+/* Optima Express widgets (responsive vesion v2.1.0)
+------------------------------------------------------------ */
+#ihf-main-container img {
+	max-height: none !important;
+}
+
 
 /* Responsive design
 ------------------------------------------------------------ */
