@@ -3,6 +3,10 @@
 .entry-content #dsidx-listings li {
 	display: none;
 }
+.entry-content #dsidx-listings li.dsidx-listing-container,
+.entry-content #dsidx-listings li.dsidx-listings-grid-clear /* for dsIDXpress Pro */ {
+	display: list-item;
+}
 .entry-content #dsidx-listings li.dsidx-listing {
 	display: list-item;
 	float: left;
