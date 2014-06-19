@@ -1,0 +1,211 @@
+/* Widgets
+------------------------------------------------------------ */
+
+/* Quick search */
+.vertical-search .IDX-quicksearchWrapper,
+.horizontal-search .IDX-quicksearchWrapper {
+	width: 100% !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+.vertical-search .IDX-qsFieldWrap,
+.horizontal-search .IDX-qsFieldWrap {
+	text-align: left !important;
+	overflow: hidden;
+	padding: 0 !important;
+	margin-bottom: 5px !important;
+}
+.vertical-search .IDX-qsFieldWrap label {
+	float: left;
+	width: 30%;
+	margin: 0!important;
+}
+.horizontal-search .IDX-qsFieldWrap label {
+	margin: 0 !important;
+}
+.vertical-search .IDX-qsFieldWrap input,
+.vertical-search .IDX-qsFieldWrap select {
+	float: right;
+	width: 65%;
+	margin: 0;
+}
+.horizontal-search .IDX-qsFieldWrap {
+	width: 15.5%;
+	margin-right: 1%;
+	float: left;
+}
+.horizontal-search .IDX-qsFieldWrap input[type="submit"] {
+	width: 100%;
+	margin: 18px 0 0;
+}
+
+/* Featured Agent */
+#IDX-featAgentImgWrap {
+	float: left;
+	margin-right: 10px;
+}
+#IDX-featAgentImgWrap img {
+	padding: 4px;
+	border: 1px solid #ddd;
+}
+#IDX-featuredAgentCaption {
+	float: left;
+}
+
+
+/* Showcase */
+div[id*="IDX-showcaseGallery-"].IDX-showcaseWrapper,
+div[id*="IDX-showcaseGallery-"].IDX-showcaseTable {
+	width: 100% !important;
+	font-size: 13px !important;
+	line-height: 18px;
+}
+div[id*="IDX-showcaseGallery-"] .IDX-showcaseDetails,
+div[id*="IDX-showcaseGallery-"] .IDX-showcaseCell {
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	border: none !important;
+
+}
+/* Showcase */
+/*div[id*="IDX-showcaseGallery-"].IDX-showcaseWrapper,
+div[id*="IDX-showcaseGallery-"].IDX-showcaseTable {
+	width: 100% !important;
+}
+div[id*="IDX-showcaseGallery-"] .IDX-showcaseDetails,
+div[id*="IDX-showcaseGallery-"] .IDX-showcaseCell {
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	border: none !important;
+	font-size: 14px;
+	line-height: 16px;
+	position: relative;
+	height: auto !important;
+	padding: 0 !important;
+}
+div[id*="IDX-showcaseGallery-"] .IDX-showcasePhoto {
+	margin-bottom: 10px;
+	max-height: none !important;
+}
+div[id*="IDX-showcaseGallery-"] .IDX-showcasePrice {
+}
+*/
+/* Slideshow */
+/*.IDX-slideshowWrapper {
+	box-shadow: none !important;
+	width: 100% !important;
+}
+.IDX-slideshowCaption {
+	border-radius: 0 !important;
+}
+.IDX-slideshowWrapper a .idx-slideshowPhotoElement {
+	width: 100% !important;
+	height: auto !important;
+}
+.IDX-slideshowCaption .IDX-slideshowContent {
+	font-size: 12px !important;
+	line-height: 14px !important;
+}*/
+
+/* Lead Login */
+.IDX-widgetLeadLoginWrapper label {
+	float: left;
+	width: 35%;
+	margin-left: 0;
+}
+.IDX-widgetLeadLoginWrapper input {
+	float: right;
+	width: 60%;
+}
+#IDX-widgetEmail {
+	margin-bottom: 5px;
+}
+
+/* Lead Signup */
+#IDX-widgetLeadSignupForm label {
+	clear: both;
+	float: left;
+	width: 35%;
+	margin-left: 0;
+	line-height: 26px;
+}
+#IDX-widgetLeadSignupForm input {
+	float: right;
+	width: 60%;
+	margin-bottom: 5px;
+}
+
+
+/* Pages
+------------------------------------------------------------ */
+/* General */
+#IDX-main {
+	width: 100% !important;
+}
+#IDX-searchNavWrapper li a,
+#IDX-searchNavWrapper li a:hover,
+#IDX-searchNavWrapper li span {
+	display: block;
+}
+#IDX-searchNavWrapper li a:hover,
+#IDX-searchNavWrapper li span {
+	text-decoration: none;
+}
+#IDX-resultsRefineSubmit {
+	width: auto;
+}
+#IDX-resultMap {
+	margin-bottom: 20px;
+}
+#IDX-mapContainer {
+	width: 100% !important;
+}
+
+/* Responsive
+------------------------------------------------------------ */
+@media (max-width: 960px) {
+	.horizontal-search .IDX-qsFieldWrap {
+		width: 48%;
+	}
+	.horizontal-search .IDX-qsFieldWrap label {
+		width: 30%;
+		margin: 0;
+	}
+	.horizontal-search .IDX-qsFieldWrap input,
+	.horizontal-search .IDX-qsFieldWrap select {
+		float: right;
+		width: 65%;
+		margin: 0;
+	}
+}
+@media (max-width: 600px) {
+	.horizontal-search .IDX-qsFieldWrap label,
+	.horizontal-search .IDX-qsFieldWrap input,
+	.horizontal-search .IDX-qsFieldWrap select {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+}
+@media (max-width: 480px) {
+	.IDX-wrapper-standard #IDX-cczContainer,
+	.IDX-wrapper-standard .IDX-coreFields,
+	#IDX-per-group,
+	#IDX-srtd-group,
+	#IDX-submit-group {
+		float: none;
+		width: 100%;
+	}
+	.vertical-search .IDX-qsFieldWrap label,
+	.vertical-search .IDX-qsFieldWrap input,
+	.vertical-search .IDX-qsFieldWrap select,
+	.horizontal-search .IDX-qsFieldWrap {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	.horizontal-search .IDX-qsFieldWrap {
+		margin: 0 0 5px;
+	}
+}
