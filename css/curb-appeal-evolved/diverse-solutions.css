@@ -1,0 +1,190 @@
+/* dsIDXpress listing pages
+------------------------------------------------------------ */
+.entry-content #dsidx-listings li {
+	display: none;
+}
+.entry-content #dsidx-listings li.dsidx-listing-container,
+.entry-content #dsidx-listings li.dsidx-listings-grid-clear /* for dsIDXpress Pro */ {
+	display: list-item;
+}
+.entry-content #dsidx-listings li.dsidx-listing {
+	display: list-item;
+	float: left;
+	width: 50%;
+	margin: 0 0 15px;
+	text-align: center;
+	min-height: 400px;
+}
+.entry-content #dsidx-listings li.dsidx-listing-container {
+	display: block;
+}
+.entry-content #dsidx-listings .dsidx-media .dsidx-photo {
+	position: relative;
+	border: none;
+	max-height: 198px;
+}
+.entry-content #dsidx-listings .dsidx-media .dsidx-photo img {
+	border: 1px solid #ddd;
+	padding: 4px;
+}
+.entry-content #dsidx-listings .dsidx-primary-data,
+.entry-content #dsidx-listings .dsidx-secondary-data {
+	padding-left: 0;
+	float: none;
+	background: none;
+}
+.entry-content #dsidx-listings .dsidx-secondary-data {
+	font-size: 14px;
+	
+}
+.entry-content .dsidx-paging-control {
+	clear: both;
+}
+.entry-content #dsidx-disclaimer {
+	font-size: 11px;
+}
+
+/* dsIDXpress widgets
+------------------------------------------------------------ */
+.home-middle .dsidx-widget-single-listing {
+	float: left;
+	margin-right: 1%;
+}
+.home-middle .dsidx-widget-single-listing:last-child {
+	margin-right: 0;
+}
+.dsidx-widget-single-listing h3.widget-title a {
+	text-decoration: none;
+}
+.horizontal-search .dsidx-search-widget {
+	max-width: 100%;
+}
+.horizontal-search .dsidx-search-widget .dsidx-search-widget-propertyTypes,
+.horizontal-search .dsidx-search-widget .idx-q-Location-Filter {
+	float: left;
+	width: 49% !important;
+	margin-right: 2%;
+}
+.horizontal-search .dsidx-search-widget .idx-q-Location-Filter {
+	margin-right: 0;
+}
+.horizontal-search label[for="idx-q-PriceMin"],
+.horizontal-search label[for="idx-q-ImprovedSqFtMin"],
+.horizontal-search label[for="idx-q-BedsMin"],
+.horizontal-search label[for="idx-q-BathsMin"] {
+	width: 55px;
+	float: left;
+	clear: none;
+}
+.horizontal-search label[for="idx-q-ImprovedSqFtMin"] {
+	clear: both;
+}
+.horizontal-search .dsidx-search-widget input.dsidx-improvedsqft,
+.horizontal-search .dsidx-search-widget input.dsidx-beds,
+.horizontal-search .dsidx-search-widget input.dsidx-baths {
+	width: 25%;
+	float: left;
+	margin-right: 3%;
+}
+
+/* Responsive design
+------------------------------------------------------------ */
+@media (max-width: 1200px) {
+	.horizontal-search .dsidx-search-widget input.dsidx-improvedsqft,
+	.horizontal-search .dsidx-search-widget input.dsidx-beds,
+	.horizontal-search .dsidx-search-widget input.dsidx-baths {
+		width: 20%;
+	}
+}
+@media (max-width: 680px) {
+	.horizontal-search .dsidx-search-widget .dsidx-search-widget-propertyTypes,
+	.horizontal-search .dsidx-search-widget .idx-q-Location-Filter {
+		float: none;
+		width: 100% !important;
+		margin-right: 0;
+	}
+	.horizontal-search label[for="idx-q-PriceMin"],
+	.horizontal-search label[for="idx-q-ImprovedSqFtMin"],
+	.horizontal-search label[for="idx-q-BedsMin"],
+	.horizontal-search label[for="idx-q-BathsMin"] {
+		width: 55px;
+		float: left;
+		clear: none;
+		display: inline-block;
+	}
+	.horizontal-search label[for="idx-q-ImprovedSqFtMin"],
+	.horizontal-search label[for="idx-q-BedsMin"],
+	.horizontal-search label[for="idx-q-BathsMin"] {
+		clear: both;
+		float: none;
+		display: inline-block;
+		width: 20%;
+	}
+	.horizontal-search .dsidx-search-widget input.dsidx-improvedsqft,
+	.horizontal-search .dsidx-search-widget input.dsidx-beds,
+	.horizontal-search .dsidx-search-widget input.dsidx-baths {
+		width: auto;
+		float: none;
+		margin-right: 0;
+		display: inline-block;
+		width: 78%;
+	}
+}
+
+@media (max-width: 620px) {
+	.entry-content #dsidx-listings li.dsidx-listing {
+		float: none;
+		width: 100%;
+	}
+
+	/* Listing details table make responsive
+	------------------------------------------------------------ */
+	/* Force table to not be like tables anymore */
+	#dsidx table,
+	#dsidx table tbody,
+	#dsidx table th,
+	#dsidx table td,
+	#dsidx table tr{
+		display: block; 
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#dsidx table thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	#dsidx table tr {
+		border: 1px solid #ccc;
+	}
+
+	#dsidx table td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+
+	#dsidx table td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+}
+
+@media (max-width: 480px) {
+	.entry-content #dsidx-listings li.dsidx-listing {
+		float: none;
+		width: 100%;
+	}
+	.horizontal-search .dsidx-search-widget input.dsidx-price {
+		width: 100%;
+	}
+}
