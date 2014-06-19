@@ -60,9 +60,6 @@
 
 /* Optima Express widgets (responsive version v2.2.2)
 ------------------------------------------------------------ */
-#ihf-main-container a {
-	color: inherit !important;
-}
 #ihf-main-container img {
 	max-height: none !important;
 }
@@ -102,6 +99,13 @@
 .widget_ihomefinderquicksearchwidget #ihf-main-container .mb-25 {
 	margin-bottom: 0;
 }
+
+/* Optima Express pages (responsive version v2.2.2)
+------------------------------------------------------------ */
+ #ihf-main-container .pagination li.disabled {
+ 	border: none;
+ 	padding: 0;
+ }
 
 /* Responsive design (legacy--non-responsive)
 ------------------------------------------------------------ */
