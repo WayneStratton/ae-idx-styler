@@ -17,6 +17,11 @@
 	margin: 0 !important;
 }
 
+.flexmls_connect__search.horizontal,
+.flexmls_connect__search .containment {
+	width: 100% !important;
+}
+
 /** Carousel widget **/
 .flexmls_connect__carousel,
 .flexmls_connect__container,
@@ -36,10 +41,18 @@
 	.flexmls_connect__market_stats_graph canvas {
 		width: auto !important;
 	}
+	.flexmls_connect__search.horizontal .search_field.right_float {
+		float: none;
+	}
 	
 }
 @media (max-width: 600px) {
 	.flexmls_connect__sr_result .flexmls_connect__sr_listing_facts_container {
 		padding-left: 0;
+	}
+	.flexmls_connect__search.horizontal .right {
+		float: none;
+		padding: 0;
+		top: 0;
 	}
 }
