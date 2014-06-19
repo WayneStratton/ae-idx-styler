@@ -1,0 +1,144 @@
+/* Optima Express pages (legacy--non-responsive)
+------------------------------------------------------------ */
+#ihfSearchResultsNav_620,
+#map_canvas,
+#ihfSearchResults_620,
+#ihfSearchResultsNavBot_620,
+#ihf_maincontainer_620,
+#ihf_detail_container_620,
+#ihf_fade_container,
+#ihf_detail_container_620_inner,
+#ihf_searchform_container_620,
+#ihf_orglogin_container,
+#ihf_map_widget iframe,
+#ihf_emailalerts_container,
+#ihf_mlsnum_street_search_620 {
+	width: 100% !important;
+}
+#ihf {
+}
+#ihf_fade_container {
+	background: none !important;
+}
+#ihf_orglogin_container {
+	margin: 0;
+}
+#ihf_orglogin_container input {
+	width: auto;
+}
+
+/* Optima Express widgets (legacy--non-responsive)
+------------------------------------------------------------ */
+.widget_ihomefinderquicksearchwidget .ihmain,
+.widget_ihomefinderquicksearchwidget br {
+	display: none;
+}
+#ihf input[type="submit"] {
+	color: #fff;
+}
+#ihf_widget_quick_search select {
+	width: 100% !important;
+}
+.ihf_widget_search_minprice,
+.ihf_widget_search_maxprice,
+.ihf_widget_search_bed,
+.ihf_widget_search_bath,
+.ihf_widget_search_sqft,
+.ihf_widget_search_lotacres {
+	width: 45%;
+	float: left;
+}
+.ihf_widget_search_minprice input,
+.ihf_widget_search_maxprice input,
+.ihf_widget_search_bed select,
+.ihf_widget_search_bath select,
+.ihf_widget_search_sqft input,
+.ihf_widget_search_lotacres input {
+	width: 80% !important;
+}
+
+
+/* Optima Express widgets (responsive version v2.2.2)
+------------------------------------------------------------ */
+#ihf-main-container a {
+	color: inherit !important;
+}
+#ihf-main-container img {
+	max-height: none !important;
+}
+.widget_ihomefinderpropertiesgallery .gallery-sidebar-photo img {
+	max-height: 100% !important;
+	height: auto;
+}
+.widget_ihomefinderpropertiesgallery h4 + br {
+	display: none;
+}
+.home-middle .widget_ihomefinderpropertiesgallery .gallery-prop-info {
+	width: 23.076923076923077%;
+	float: left;
+	margin-left: 2.564102564102564%;
+	margin-bottom: 15px;
+}
+.home-middle .widget_ihomefinderpropertiesgallery .gallery-prop-info:first-child {
+	margin-left: 0;
+}
+.widget_ihomefinderpropertiesgallery #ihf-main-container .ihf-txt-uc {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28px;
+	text-transform: none;
+	text-decoration: none;
+	display: block;
+	margin: 0 0 10px;
+}
+.home-middle .widget_ihomefinderpropertiesgallery #ihf-main-container .ihf-txt-uc {
+	font-size: 18px;
+	line-height: 24px;
+}
+.home-bottom .widget_ihomefinderpropertiesgallery #ihf-main-container .ihf-txt-uc {
+	font-size: 24px;
+	line-height: 28px;
+}
+.widget_ihomefinderquicksearchwidget #ihf-main-container .mb-25 {
+	margin-bottom: 0;
+}
+
+/* Responsive design (legacy--non-responsive)
+------------------------------------------------------------ */
+@media only screen and (min-width:768px) and (max-width:979px) {
+	#ihf_detail_photo_container,
+	#ihf_detail_basicinfo_container_620,
+	#ihf_modulebox_600 .ihf-content,
+	#ihf_detail_pagingcapture_620,
+	#ihf_modulebox_600,
+	#ihf table,
+	#ihf tr,
+	#ihf tr td {
+		clear: left;
+		float: none !important;
+		width: 100% !important;
+	}
+	#detail_content {
+		padding: 0 !important;
+	}
+}
+@media only screen and (max-width:620px) {
+	#ihf_detail_photo_container,
+	#ihf_detail_basicinfo_container_620,
+	#ihf_modulebox_600 .ihf-content,
+	#ihf_detail_pagingcapture_620,
+	#ihf_modulebox_600,
+	#ihf table,
+	#ihf tr,
+	#ihf tr td,
+	#ihf_search620_formleft,
+	#ihf_search620_formright,
+	.home-middle .widget_ihomefinderpropertiesgallery .gallery-prop-info {
+		clear: left;
+		float: none !important;
+		width: 100% !important;
+	}
+	#detail_content {
+		padding: 0 !important;
+	}
+}
